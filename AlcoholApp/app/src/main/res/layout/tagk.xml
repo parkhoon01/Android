@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#021AEA"
+                android:fontFamily="@font/nanumhangel"
+                android:text="태극주(소주 + 홍초 + 파워에이드)"
+                android:textAlignment="center"
+                android:textColor="#EF0202"
+                android:textSize="44sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView51"
+                android:layout_width="match_parent"
+                android:layout_height="416dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/tagk2" />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gomsin"
+                android:text="태극주는 아래에 홍초 + 소주, 위쪽에 파워에이드가 있어 태극기 색과 유사하여 만들어진 술입니다. 맛도 너무 맛있어서 요즘 정말 핫한 술입니다."
+                android:textAlignment="center"
+                android:textColor="#1E51E9"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView52"
+                android:layout_width="match_parent"
+                android:layout_height="416dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/tagk3" />
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumhangel"
+                android:text="태극주 만드는 방법~~"
+                android:textAlignment="center"
+                android:textColor="#E80505"
+                android:textColorHighlight="#FFEB3B"
+                android:textSize="60sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView50"
+                android:layout_width="match_parent"
+                android:layout_height="402dp"
+                app:srcCompat="@drawable/tagk4" />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gomsin"
+                android:text="준비물 : 소주, 홍초, 파워에이드, 컵, 숟가락"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gomsin"
+                android:text="1. 먼저 컵에 홍초와 소주를 섞어 1/3정도를 채워줍니다."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gomsin"
+                android:text="2. 다음 숟가락을 잔벽에 대고 파워에이드를 조금씩 넣어줍니다. 1/3"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gomsin"
+                android:text="3. 마지막으로 취향에 맞게 얼음을 넣습니다."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

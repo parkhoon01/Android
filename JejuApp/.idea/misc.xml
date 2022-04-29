@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_leisure.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_restaurant.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_trav.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_trav_item.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/activity_travel.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/activity_travel_detail.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/activity_travel_spot.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/borom_trav.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/chenje_trav.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fish.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/fish_res.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/galchi.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/galchi_res.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/gogi.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/gogi_res.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/gooksoo.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/gooksoo_res.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/gun_detail.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/item_travel.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/jondal.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/jondal_res.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/juli_trav.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/keung_trav.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/maoodon.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/maoodon_res.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/maze_detail.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/misul_trav.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/nexon_detail.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/second_1.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/wind_detail.xml" value="0.2953125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

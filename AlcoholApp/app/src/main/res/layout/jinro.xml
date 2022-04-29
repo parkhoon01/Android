@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/nanumhangel"
+                android:text=" 진로 이즈백"
+                android:textAlignment="center"
+                android:textSize="60sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView24"
+                    android:layout_width="200dp"
+                    android:layout_height="400dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/jinro" />
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView25"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/jinro2" />
+
+                    <TextView
+                        android:id="@+id/textView96"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nanumgumenbohwa"
+                        android:text="알콜도수 : 16.9도"
+                        android:textAlignment="center"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView101"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nanumgumenbohwa"
+                        android:text="출시일 : 2019.04"
+                        android:textAlignment="center"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView102"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/nanumgumenbohwa"
+                        android:text="판매지역 : 전국"
+                        android:textAlignment="center"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="273dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/jinro3" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="match_parent"
+                android:layout_height="273dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/jinro4" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/nanumflower"
+                android:text="'뉴트로 열풍'으로 뚫은 진로이즈백, 이제는 해외공략  하이트진로는 10일 '진로이즈백' 출시 1주년을 기념해 일본과 미국, 중국 등 7개국에 수출을 진행한다고 밝혔다. 하이트진로는 오늘부터 소주에 대한 인지도가 높은 일본을 시작으로 미국과 캐나다, 중국 등의 순으로 수출국을 늘려나갈 방침이다.   진로이즈백은 지난해 4월 출시된 이후 해외 수출에 대한 요구가 지속돼 왔다. 그러나 국내에서 '뉴트로 열풍'에 힘입어 7개월 만에 1억 병 이상 팔리는 등 초고속 판매기록을 세우며 품귀 현상이 발생해 공급 안정화가 필요했다.  이에 하이트진로는 계속되는 교민들의 요청에 공급 체계를 갖춘 후 해외 수출을 결정하게 됐다. 진로이즈백 공급도 수출 요구가 높았던 교민 시장을 중심으로 현지인들이 자주 찾는 한식당까지 점차 확대한다.   하이트진로 해외사업본부 총괄 황정호 상무는 &quot;교민사회를 중심으로 글로벌 시장에서의 진로 수출 요구가 지속적으로 있었다&quot;며 &quot;하이트진로는 국내는 물론 해외 시장 공략을 위해 제품 포트폴리오 다변화를 통해 주류시장 성장을 주도할 것&quot;이라고 강조했다."
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

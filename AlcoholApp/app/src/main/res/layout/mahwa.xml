@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:text="매화수"
+                android:textAlignment="center"
+                android:textColor="#DD35CD"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/mahwa" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="- 원재료 : 매실"
+                android:textAlignment="textStart"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="- 생산지역 : 전국"
+                android:textAlignment="textStart"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="- 알코올 도수 : 14%"
+                android:textAlignment="textStart"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="-보관방법 : 냉장보관"
+                android:textAlignment="textStart"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="- 맛과 향 :  새콤달콤하고 매실향"
+                android:textAlignment="textStart"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nanumhangel"
+                android:text="2000년대에 갑툭튀하여 기존 매실주과는 달리 세련된 디자인과 이미지에 기존 진로의 유통망의 덕을 보며 현재 매실주 시장 부동의 1위를 지키고 있는 매실주이다. 그냥 1위가 아니라 점유율 과반을 넘긴 것으로 보아 가히 매실주계의 참이슬이라 할 만 하다.  매실주 원액 27.7%와 스페인산 화이트 와인을 혼합한 것에 주정을 넣어 도수를 14%로 유지하여 제조되며 이 때문에 희석식 소주와 다른 '과실주'로 분류되어 있다. 국내에서 찾아볼 수 있는 비슷한 형태 술로는 와인 크루저 정도가 유일하며 매취순, 설중매를 제외하고 저렴한 가격을 유지하면서 인기를 끌고 있다."
+                android:textColor="#201F1F"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

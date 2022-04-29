@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Jeju App</string>
+    <string name="affirmation1">제주.</string>
+    <string name="affirmation2">천제연폭포</string>
+    <string name="affirmation3">큰엉해안경승지</string>
+    <string name="affirmation4">대포주상절리</string>
+    <string name="affirmation5">현대미술관</string>
+    <string name="affirmation6">신창풍차해안도로</string>
+    <string name="affirmation7">보롬왓</string>
+    <string name="affirmation8">I have the courage to follow my heart.</string>
+    <string name="affirmation9">Things will unfold at precisely the right time.</string>
+    <string name="affirmation10">I will be present in all the moments that this day brings.</string>
+</resources>

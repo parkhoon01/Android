@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFEB3B"
+                android:fontFamily="@font/nanumhangel"
+                android:text="하이볼(위스키 + 탄산수 + 레몬즙)"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="44sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView51"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/hibol2" />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gomsin"
+                android:text="하이볼의 시작은 미국과 영국이었지만, 지금 우리가 알고 있는 하이볼을 만든건 일본, 그중에서도 산토리이다."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumhangel"
+                android:text="하이볼 만드는 방법!"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHighlight="#FFEB3B"
+                android:textSize="60sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gomsin"
+                android:text="준비물 : 위스키, 탄산수, 레몬, 얼음"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView52"
+                android:layout_width="match_parent"
+                android:layout_height="416dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/hibol3" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gomsin"
+                android:text="1. 레몬을 가볍게 짜고, 하이볼 글라스에 얼음을 채웁니다."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView50"
+                android:layout_width="match_parent"
+                android:layout_height="402dp"
+                app:srcCompat="@drawable/hibol4" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gomsin"
+                android:text="2. 빨간 선까지 위스키를 따릅니다.(30ml를 추천합니다) 그리고 머들러로 13회 반 정도 저어주고 얼음을 조금 더 채워줍니다."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView54"
+                android:layout_width="match_parent"
+                android:layout_height="402dp"
+                app:srcCompat="@drawable/hibol5" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gomsin"
+                android:text="3. 차가운 탄산수를 하이볼 글라스의 거북등 모양 위까지 조심하게 따릅니다. 위스키 : 탄산수 비율은 1 : 4를 추천합니다."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="match_parent"
+                android:layout_height="402dp"
+                app:srcCompat="@drawable/hibol6" />
+
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gomsin"
+                android:text="4. 머들러를 위 아래로 1회 가볍게 저어 줍니다."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

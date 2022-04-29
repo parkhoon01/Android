@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="맥스"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(MAX)"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/max" />
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#685E4343"
+                            android:text="BREWERY"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView59"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="# 하이트진로"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView60"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#685E4343"
+                            android:text="ABV"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView61"
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="   4.5"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView64"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#685E4343"
+                            android:text="STYLE"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView65"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="# 인터네셔널 페일 라거"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </TableLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/nanumgumenbohwa"
+                android:text="맥스 12년의 노하우로 완성된 풍부한 거품이 깊은 ALL Malt 맥주 맛을 지켜주며, 초기 거품지속력(포지력) 업그레이드로 부드러운 Cream과 깊고 풍부한 맛을 더욱 오래 느낄 수 있습니다."
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/nanumgumenbohwa"
+                android:text="하이트나 카스에서 느꼈던 한국 맥주 특유의 밍밍하고 탄산이 많이 함유된 느낌이 상당히 적은 맥주이나 잡미가 있는 편이다. 옥수수나 쌀 같은 잡다한 곡식이 섞이지 않은 100% 보리맥주로 분류는 페일 라거이다. 타 제품보다 깊고 풍부한 맛을 낸다. 그런데 맥스가 처음 나왔을 때보다 맛이 좀 밍밍해진 감이 있다. 탄산을 더 넣었다나? 그래도 하이트와 가격이 같기 때문에 외국 맥주는 부담이고, 국산 맥주 중 조금 진한 맥주를 먹고 싶다 싶으면 이 맥주를 고르면 그나마 괜찮다. 알코올 도수는 4.5%. 2013년 여름 캔이 리뉴얼되면서 맛도 변경됐다. 리뉴얼 이후 어째 더 밍밍해졌다는 평가가 많아서 예전의 맥스로 돌아와달라는 절규가 지속되는 중. 대체로 맛은 부담없이 마실 수 있는 정도. 2013년 3월에는 세계 3대 맥주 품평회 중 하나인 'IBA 2013(The International Brewing Awards 2013)'에 출품해 참가 부문 최고상인 금상을 수상했다."
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:text="백화수복"
+                android:textAlignment="center"
+                android:textColor="#6C2D03"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/baekhwa" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="- 원재료 : 쌀"
+                android:textAlignment="textStart"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="- 생산지역 : 전국"
+                android:textAlignment="textStart"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="- 알코올 도수 : 13%"
+                android:textAlignment="textStart"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="-보관방법 : 냉장보관"
+                android:textAlignment="textStart"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="- 맛과 향 :  닷맛이 덜하다"
+                android:textAlignment="textStart"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nanumhangel"
+                android:text="롯데그룹에 인수되기 전 두산주류BG 시절은 물론이고 그 이전인 백화양조와 대한양조 시절부터 양조되어와 70년이 넘는 연혁을 가지고 있는 증량청주로, 제사상에 올릴 차례주 용도로 부동의 시장 점유율 1위를 차지하고 있는 술이다. 차례주로 높은 브랜드 인지도를 갖고 있고 유통망도 잘 구축되어 있기 때문에, 웬만한 이자카야나 오뎅집, 포장마차 등지에서 쉽게 찾아 볼 수 있다. 대부분의 이자카야의 잔술과 도쿠리는 따로 사케를 시키지 않는 이상 백화수복이 사용될 정도이다. 그뿐만 아니라 설날, 추석 등 명절날에 쓸 제사음식을 전문적으로 취급하는 업체에 주문하면 곁으로 딸려오는 청주도 대부분 백화수복이다."
+                android:textColor="#201F1F"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="하이네켄"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(HEINEKEN)"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/hineken" />
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#685E4343"
+                            android:text="BREWERY"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView59"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="# 하이네켄 인터네셔널"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView60"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#685E4343"
+                            android:text="ABV"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView61"
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="   5.0"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView64"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#685E4343"
+                            android:text="STYLE"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView65"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="# 인터네셔널 페일 라거"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </TableLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/nanumgumenbohwa"
+                android:text="하이네켄은 100% 보리맥아, 엄선된 홉과 생수를 사용해 어떤 맥주와도 견줄 수 없는 깔끔함을 선사한다."
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/nanumgumenbohwa"
+                android:text="5%와 4.3% 두가지 종류가 있다. 현재 국내에서 시판 중인 하이네켄 맥주의 알콜 도수는 5%인 종류들이 대부분이다. 증류수와 맥아를 섞은 보리, 효모로만 만들며, 효모는 1886년 것을 지금도 사용중이다. 미국인들이 버드와이저에 비해서 톡쏘는 맛이 없다고 이른바 '오줌'이라고 까기도 하는데 사실 애초에 버드와이저는 쌀이 들어간 미국식 부가물 라거 맥주고, 이 쪽은 보리와 물, 홉, 효모등으로만 만드는, 역사가 있는 정통 유럽식 라거 맥주인데다가 애당초 톡 쏘는 맛은 그저 탄산으로 인한 것이고 맥주로서는 당연히 하이네켄 쪽이 제맛이다. 즉 애당초 다른 물건을 다르다고 불평하는 꼴. 물론 술은 기호품이니 어느 쪽을 선호하든 그건 자유지만, 무조건 맛없다는 소리는 거르는 것이 좋다. 맛은 소맥맛과 비슷해서 소맥을 좋아하는 사람에게 추천한다. 소맥맛에 좀더 쓴 맛이다. 정제된 쌉쌀함의 목넘김과 묵직한 뒷맛이 그나마 대량 생산된 라거 맥주 중에서는 특별한 느낌이다. 하이네켄에서 자체적으로 선정하는 스타서브 프로그램의 순위권 매장에서 하이네켄 생맥주를 마셔보면 미묘하게 벌꿀향이 나는 것을 맡을 수 있다. 국산맥주들 보단 당연히 맛과 향에서 월등하며 칼스버그, 필스너 우르켈과 더불어 아사히나 삿포로, 기린, 칭다오 등 일본/중국산 맥주나 산미겔, 비어라오, 에페스 같은 기타 아시아산 맥주들을 제외하면 유럽산 맥주 브랜드들 중에선 국내에서 가장 인기가 좋은 맥주 브랜드이다."
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

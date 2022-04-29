@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jejuapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JejuApp">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TravelActivity"></activity>
+        <activity android:name=".Travel.chenje"></activity>
+        <activity android:name=".Travel.kenung"></activity>
+        <activity android:name=".Travel.misul"></activity>
+        <activity android:name=".Travel.borom"></activity>
+        <activity android:name=".Travel.juli"></activity>
+        <activity android:name=".MatzipActivity"></activity>
+        <activity android:name=".leisure"></activity>
+        <activity android:name=".Restran.galchi"></activity>
+        <activity android:name=".Restran.gooksoo"></activity>
+        <activity android:name=".Restran.gogi"></activity>
+        <activity android:name=".Restran.fish"></activity>
+        <activity android:name=".Restran.jondal"></activity>
+        <activity android:name=".Restran.maoodon"></activity>
+        <activity android:name=".leisure_detail.gun"></activity>
+        <activity android:name=".leisure_detail.maze"></activity>
+        <activity android:name=".leisure_detail.nexon"></activity>
+        <activity android:name=".leisure_detail.wind"></activity>
+    </application>
+
+</manifest>

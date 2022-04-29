@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="402dp"
+                android:layout_height="50dp"
+                android:text="즐길거리!!(사진 클릭!!)"
+                android:textAlignment="center"
+                android:textColor="#FF5722"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/leisure_image1"
+                    android:layout_width="278dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="28dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/wind3" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="171dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="50dp"
+                    android:text="윈드1947"
+                    android:textAlignment="textStart"
+                    android:textColor="#FF5722"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/leisure_image2"
+                    android:layout_width="278dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="28dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/nexon" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="171dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Nexon 박물관"
+                    android:textAlignment="textStart"
+                    android:textColor="#FF5722"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/leisure_image3"
+                    android:layout_width="278dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="28dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/gun" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="171dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="50dp"
+                    android:text="실탄사격장"
+                    android:textAlignment="textStart"
+                    android:textColor="#FF5722"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/leisure_image4"
+                    android:layout_width="278dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="28dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/maze" />
+
+                <TextView
+                    android:layout_width="171dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="50dp"
+                    android:text="메이즈랜드"
+                    android:textAlignment="textStart"
+                    android:textColor="#FF5722"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

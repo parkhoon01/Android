@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alcoholapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlcoholApp">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BodActivity"></activity>
+        <activity android:name=".TraditionActivity" />
+        <activity android:name=".Tack.JangSoo" />
+        <activity android:name=".Tack.idong" />
+        <activity android:name=".Tack.aurazi" />
+        <activity android:name=".Tack.bae" />
+        <activity android:name=".Chung.chungha" />
+        <activity android:name=".Chung.baekhwa" />
+        <activity android:name=".Chung.mowal"/>
+        <activity android:name=".Chung.cheonbee"/>
+        <activity android:name=".Ryuju.seol"/>
+        <activity android:name=".Ryuju.bock"/>
+        <activity android:name=".Ryuju.mahwa"/>
+        <activity android:name=".Ryuju.sansa"/>
+        <activity android:name=".BeerActivity"/>
+        <activity android:name=".Beer.Insang"/>
+        <activity android:name=".Beer.Pellong"/>
+        <activity android:name=".Beer.SangSang"/>
+        <activity android:name=".Beer.Milki"/>
+        <activity android:name=".Beer.Mine"/>
+        <activity android:name=".Beer.Witch"/>
+        <activity android:name=".Beer.Arirang"/>
+        <activity android:name=".Beer.Daehan"/>
+        <activity android:name=".Beer.Gyeong"/>
+        <activity android:name=".Beer.Lager.Hepe"/>
+        <activity android:name=".Beer.Lager.Hineken"/>
+        <activity android:name=".Beer.Lager.Kozel"/>
+        <activity android:name=".Beer.Lager.Max"/>
+        <activity android:name=".Beer.Lager.sapporo"/>
+        <activity android:name=".Beer.Lager.Trev"/>
+        <activity android:name=".Beer.Lager.Good"/>
+        <activity android:name=".Beer.Lager.Ob"/>
+        <activity android:name=".Beer.Lager.Twe"/>
+        <activity android:name=".soju.cham"/>
+        <activity android:name=".soju.chun"/>
+        <activity android:name=".soju.jinro"/>
+        <activity android:name=".soju.daesun"/>
+        <activity android:name=".soju.hanra"/>
+        <activity android:name=".SojuActivity"/>
+        <activity android:name=".MixActivity"/>
+        <activity android:name=".Mix.Somac"/>
+        <activity android:name=".Mix.tagk"/>
+        <activity android:name=".Mix.jelly"/>
+        <activity android:name=".Mix.hibol"/>
+        <activity android:name=".MatzipActivity"/>
+        <activity android:name=".Matzip.iche"/>
+        <activity android:name=".Matzip.yong"/>
+        <activity android:name=".Matzip.lovi"/>
+        <activity android:name=".Matzip.san"/>
+        <activity android:name=".Matzip.wara"/>
+    </application>
+
+</manifest>

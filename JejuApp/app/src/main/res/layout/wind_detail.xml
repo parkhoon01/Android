@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="413dp"
+                android:layout_height="61dp"
+                android:text="Wind 1947"
+                android:textAlignment="center"
+                android:textColor="#00BCD4"
+                android:textDirection="firstStrongRtl"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="406dp"
+                android:layout_height="277dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/wind3" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="413dp"
+                android:layout_height="39dp"
+                android:text="제주 서귀포시 토평공단로 78-27"
+                android:textAlignment="center"
+                android:textColor="#00BCD4"
+                android:textDirection="firstStrongRtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="매일 10:00 - 18:30카트 매표마감 18:00"
+                android:textAlignment="center"
+                android:textColor="#00BCD4"
+                android:textDirection="firstStrongRtl"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="064-733-3500"
+                android:textAlignment="center"
+                android:textColor="#00BCD4"
+                android:textDirection="firstStrongRtl"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:text="한라산 남쪽 풍경을 안은 3만평 규모의 '윈드1947 카트테마파크'는 아시아 최장길이 코스를 보유한 제주 유일의 서킷형 레이싱 카트입니다."
+                android:textAlignment="textStart"
+                android:textColor="#0C0C0C"
+                android:textDirection="firstStrongRtl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="406dp"
+                android:layout_height="277dp"
+                app:srcCompat="@drawable/wind4" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                app:srcCompat="@drawable/wind" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                app:srcCompat="@drawable/wind2" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

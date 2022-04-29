@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#34EA02"
+                android:fontFamily="@font/nanumhangel"
+                android:text="젤리젤리주(젤리 + 소주 + 토닉워터)"
+                android:textAlignment="center"
+                android:textColor="#61632C"
+                android:textSize="44sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView51"
+                android:layout_width="match_parent"
+                android:layout_height="416dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/jelly" />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gomsin"
+                android:text="젤리젤리주는 젤리와 소주를 같이 먹는 술입니다. 여성들에게 아주 인기가 많은 술입니다."
+                android:textAlignment="center"
+                android:textColor="#9C27B0"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/nanumhangel"
+                android:text="젤리젤리주 만드는방법!"
+                android:textAlignment="center"
+                android:textColor="#00BCD4"
+                android:textColorHighlight="#FFEB3B"
+                android:textSize="60sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView50"
+                android:layout_width="match_parent"
+                android:layout_height="352dp"
+                app:srcCompat="@drawable/jelly2" />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gomsin"
+                android:text="준비물 : 소주, 젤리!"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gomsin"
+                android:text="1. 술잔에 원하는 젤리를 1/3만큼 채우고 소주 따르기"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gomsin"
+                android:text="2. 젤리가 소주를 빨아들일 때까지 살짝 기다리기"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gomsin"
+                android:text="3. 젤리가 통통해지면 함께 마신뒤 소주 먹은 젤리 질겅쓰"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView53"
+                android:layout_width="match_parent"
+                android:layout_height="426dp"
+                app:srcCompat="@drawable/jelly3" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

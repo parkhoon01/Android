@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/joosang" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:text="대포동 주상절리"
+                android:textAlignment="center"
+                android:textColor="#FF9800"
+                android:textSize="34sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="제주 서귀포시 이어도로 36-24"
+                android:textAlignment="center"
+                android:textColor="#FF9800"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="매일 09:00 - 18:00"
+                    android:textAlignment="center"
+                    android:textColor="#2196F3"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="064-738-1521"
+                    android:textAlignment="center"
+                    android:textColor="#2196F3"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="383dp"
+                android:text="대포동 주상절리는 제주공항에서 한라산 횡단도로(99번 국도)를 타고 중문의 여미지 식물원을 지나 중문민속촌을 거쳐 제주국제컨벤션센터로 우회전하면 대포동 주상절리군을 볼 수 있다. 서귀포시 대포동 해안에는 '지삿개' 또는 '모시기정'이라고 불리는 절경지가 있다. 육각형의 돌기둥이 겹겹이 쌓여 성처럼 우뚝우뚝 솟아있는 돌기둥 사이로 파도가 부서지는 모습은 한 폭의 그림과도 같다. 지삿개해안 주상절리는 약 1㎞에 이르는 해안에 걸쳐 높이가 30m 정도인 사각내지 육각형 바위가 깎아지른 절벽을 이루고 있다. [네이버 지식백과] 제주도 중문 주상절리 - 육각형의 병풍 돌기둥"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/juli2" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/juli3" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="다른각도의 주상절리"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/juli4" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="돌하르방!!"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/juli5" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="해질녘 주상절리!!"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

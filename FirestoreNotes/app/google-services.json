@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "333499116750",
+    "project_id": "firestorenotes-1770c",
+    "storage_bucket": "firestorenotes-1770c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333499116750:android:018f09fa4e5e67a4fff49f",
+        "android_client_info": {
+          "package_name": "com.example.firestorenotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333499116750-ks7go0ugbh9hnd85k119diklvnoq797k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUqTyqB-SluYPSPIX71nFCUinfFDdHYpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333499116750-ks7go0ugbh9hnd85k119diklvnoq797k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/gyung" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:text="큰엉해안경승지"
+                android:textAlignment="center"
+                android:textColor="#FF9800"
+                android:textSize="34sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:text="제주특별자치 서귀포시 남원읍 태위로 522-17 큰엄전망대"
+                android:textAlignment="center"
+                android:textColor="#FF9800"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="매일 09:00 - 18:00"
+                    android:textAlignment="center"
+                    android:textColor="#2196F3"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="010-7362-2345"
+                    android:textAlignment="center"
+                    android:textColor="#2196F3"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="383dp"
+                android:text="남원읍내에서 서쪽으로 1㎞ 떨어진 지점에 있다. 바닷가나 절벽 등에 뚫린 동굴을 제주특별자치도 방언으로 엉이라 하기 때문에 큰 바윗덩어리가 아름다운 해안을 집어삼킬 듯이 입을 크게 벌리고 있는 언덕이라는 뜻으로 붙여진 이름이다.  해안절벽 위로 2㎞에 걸친 아름다운 산책로가 만들어져 있고 주변에 부드러운 잔디가 자라 있다. 잔디밭의 끝에 서면 시커멓고 까마득한 기암절벽 아래로 탁트인 바다가 시원하게 펼쳐진다. 간이휴게소·화장실·기초체력 단련시설·음료수대 등 편의시설이 있어 행사장으로 사용되거나 갯바위 낚시를 즐길 수 있고 가족단위 주말나들이 장소로도 알맞다. [네이버 지식백과] 남원큰엉 [南元─] "
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/kenung2" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/kenung3" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="포토존!!"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/kenung4" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="큰엉!!"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/kenung5" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="이쁜사진!!"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

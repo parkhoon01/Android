@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/chen1" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:text="천제연폭포"
+                android:textAlignment="center"
+                android:textColor="#3F51B5"
+                android:textSize="34sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="제주 서귀포시 천제연로 132 천제연폭포관리소"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="매일 09:00 - 18:00"
+                    android:textAlignment="center"
+                    android:textColor="#E91E63"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="064-760-6331"
+                    android:textAlignment="center"
+                    android:textColor="#E91E63"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="345dp"
+                android:text="중문관광단지 부근, 천제교(天帝橋) 아래쪽에 상 ·중 ·하의 3단 폭포로 이어져 있다. 천제연 제1폭포는 길이 22 m, 수심 21 m의 소를 이루며, 이 물이 흘러내려 다시 제2 ·제3의 폭포를 만든다. 폭포의 양안 일대에는 난대림지대가 형성되어 있어, 한국에서는 희귀식물인 송엽란(松葉蘭) ·담팔수(膽八樹) 등이 자생하며, 그 밖에도 여러 가지 상록수와 덩굴식물 ·관목류가 무성하게 어우러져 있다. 이 난대림지대를 보호하기 위하여 천연기념물 제378호로 지정하였고, 특히 이 계곡의 담팔수는 지방기념물 제14호로 지정되어 있다. [네이버 지식백과] 천제연폭포 [天帝淵瀑布] "
+                android:textAlignment="center"
+                android:textColor="#00BCD4"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/chen6" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/chen2" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="천제연 2폭포!!"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/chen3" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="천제연 3폭포!!"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/chen5" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="무지개와 있는 천제연 폭포"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

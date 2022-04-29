@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/nanumhangel"
+        android:text="전통주"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="52dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/tradition_main" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="44dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitCenter"
+                    app:layout_column="0"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/jangsoo" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="170dp"
+                    android:text="장수막걸리"
+                    android:textAlignment="center"
+                    android:textColor="#00BCD4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="0" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="160dp"
+                    android:text="모월"
+                    android:textAlignment="center"
+                    android:textColor="#00BCD4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_column="1"
+                    app:layout_row="2" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="160dp"
+                    android:text="백화수복"
+                    android:textAlignment="center"
+                    android:textColor="#00BCD4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_column="1"
+                    app:layout_row="1" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="160dp"
+                    android:text="이동막걸리"
+                    android:textAlignment="center"
+                    android:textColor="#00BCD4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="1" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="170dp"
+                    android:text="청하"
+                    android:textAlignment="center"
+                    android:textColor="#00BCD4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_column="1"
+                    app:layout_row="0" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="160dp"
+                    android:text="복분자주"
+                    android:textAlignment="center"
+                    android:textColor="#00BCD4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_column="2"
+                    app:layout_row="1" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="160dp"
+                    android:text="매화수"
+                    android:textAlignment="center"
+                    android:textColor="#00BCD4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_column="2"
+                    app:layout_row="2" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="160dp"
+                    android:text="산사주"
+                    android:textAlignment="center"
+                    android:textColor="#00BCD4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_column="2"
+                    app:layout_row="3" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="160dp"
+                    android:text="옥수수막걸리"
+                    android:textAlignment="center"
+                    android:textColor="#00BCD4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="2" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="170dp"
+                    android:text="설중매"
+                    android:textAlignment="center"
+                    android:textColor="#00BCD4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_column="2"
+                    app:layout_row="0" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="44dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitCenter"
+                    app:layout_column="1"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/chungha" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="44dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitCenter"
+                    app:layout_column="2"
+                    app:layout_row="0"
+                    app:srcCompat="@drawable/seolhung" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="28dp"
+                    android:scaleType="fitCenter"
+                    app:layout_column="0"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/idong" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginRight="5dp"
+                    app:layout_column="1"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/baekhwa" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="28dp"
+                    android:scaleType="fitCenter"
+                    app:layout_column="2"
+                    app:layout_row="1"
+                    app:srcCompat="@drawable/bock" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="28dp"
+                    android:scaleType="fitCenter"
+                    app:layout_column="0"
+                    app:layout_row="2"
+                    app:srcCompat="@drawable/aurazi" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="113dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="160dp"
+                    android:text="배다리막걸리"
+                    android:textColor="#00BCD4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="3" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="160dp"
+                    android:text="천비향"
+                    android:textAlignment="center"
+                    android:textColor="#00BCD4"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_column="1"
+                    app:layout_row="3" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitCenter"
+                    app:layout_column="1"
+                    app:layout_row="2"
+                    app:srcCompat="@drawable/mowal" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitCenter"
+                    app:layout_column="2"
+                    app:layout_row="2"
+                    app:srcCompat="@drawable/mahwa" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitCenter"
+                    app:layout_column="0"
+                    app:layout_row="3"
+                    app:srcCompat="@drawable/bae" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitCenter"
+                    app:layout_column="1"
+                    app:layout_row="3"
+                    app:srcCompat="@drawable/chenbihyang" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="120dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitCenter"
+                    app:layout_column="2"
+                    app:layout_row="3"
+                    app:srcCompat="@drawable/sansa" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="141dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgumenbohwa"
+                    android:text="탁주"
+                    android:textAlignment="center"
+                    android:textSize="44dp"
+                    android:textStyle="bold"
+                    app:layout_column="0"
+                    app:layout_row="0" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgumenbohwa"
+                    android:text="청주"
+                    android:textAlignment="center"
+                    android:textSize="44dp"
+                    android:textStyle="bold"
+                    app:layout_column="1"
+                    app:layout_row="0" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumgumenbohwa"
+                    android:text="과실주"
+                    android:textAlignment="center"
+                    android:textSize="44dp"
+                    android:textStyle="bold"
+                    app:layout_column="2"
+                    app:layout_row="0" />
+            </androidx.gridlayout.widget.GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

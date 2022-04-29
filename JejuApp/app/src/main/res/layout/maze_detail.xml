@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="413dp"
+                android:layout_height="61dp"
+                android:text="메이즈랜드"
+                android:textAlignment="center"
+                android:textColor="#009688"
+                android:textDirection="firstStrongRtl"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="406dp"
+                android:layout_height="277dp"
+                app:srcCompat="@drawable/maze4" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="413dp"
+                android:layout_height="68dp"
+                android:text="제주 제주시 구좌읍 비자림로 2134-47 메이즈랜드"
+                android:textAlignment="center"
+                android:textColor="#009688"
+                android:textDirection="firstStrongRtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="매일 09:00 - 18:00 (마감 17:00)"
+                android:textAlignment="center"
+                android:textColor="#009688"
+                android:textDirection="firstStrongRtl"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="064-784-3838"
+                android:textAlignment="center"
+                android:textColor="#009688"
+                android:textDirection="firstStrongRtl"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                android:text="돌, 바람, 여자를 테마로 조성된 미로공원 POINT1. 세계 최장 석축 미로입니다. POINT2. 제주 신화 조각품들이 모여 있습니다. POINT3. 걷기만 해도 건강해지는 건강미로공원 입니다. POINT4. 출구를 찾아 떠나는 미로여행 POINT5. 가장 제주다운 미로공원 POINT6. 메이즈랜드 미로박물관"
+                android:textAlignment="textStart"
+                android:textColor="#0C0C0C"
+                android:textDirection="firstStrongRtl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="406dp"
+                android:layout_height="148dp"
+                app:srcCompat="@drawable/maze2" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                app:srcCompat="@drawable/maze" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                app:srcCompat="@drawable/maze3" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                app:srcCompat="@drawable/maze5" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

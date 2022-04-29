@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/Daehan.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/arirang.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/aurazi.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/backhwa.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/bae.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/beer_main.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/bock.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/bod_info.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/bod_main.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/cham.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/cheonbee.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/chum.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/chungha.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/daehan.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/daesun.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/good.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/gyungbock.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/hanra.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/hepe.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/hibol.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/hineken.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/iche.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/idong.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/insang.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/jansoo.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/jelly.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/jinro.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/kozel.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/lovi.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/mahwa.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/matzip.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/max.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/milki.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/mine.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/mix.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/mix_main.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/mowal.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/ob.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/pellongale.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/san.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/sangsang.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/sansa.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/sapporo.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/seoljung.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/soju_main.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/somac.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/tagk.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/tew.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/tradition_main.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/trev.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/twe.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/wara.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/witch.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/yongsan.xml" value="0.2953125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
